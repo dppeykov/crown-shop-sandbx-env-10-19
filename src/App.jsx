@@ -1,5 +1,7 @@
 import React from "react";
 
-const App = () => <h1>Hello</h1>;
+import HomePage from "./homepage.component";
+
+const App = () => <HomePage />;
 
 export default App;
