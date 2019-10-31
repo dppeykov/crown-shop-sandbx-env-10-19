@@ -22,7 +22,7 @@ export const firestore = firebase.firestore();
 // Setup google auth utility - docs on https://developers.google.com/identity/protocols/OpenIDConnect#authenticationuriparameters
 const provider = new firebase.auth.GoogleAuthProvider();
 provider.setCustomParameters({
-  prompt: "selsect_account"
+  prompt: "select_account"
 });
 
 export const signInWithGoogle = () => auth.signInWithPopup(provider);
